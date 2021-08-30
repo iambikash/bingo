@@ -9,7 +9,7 @@ printed_number=[]
 print("Welcome to Bingo Game !!!")
 while len(numbers)!=0:
     
-    if cont.upper()=='Y':
+    if cont.upper()!='N':
         random_number=choice(numbers)
         print("Your new number is:",random_number)
         printed_number.append(random_number)
